@@ -4,18 +4,31 @@
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	],
-	"service": "laravel.test",
+	"service": "laravel",
 	"workspaceFolder": "/var/www/html",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				// "mikestead.dotenv",
-				// "amiralizadeh9480.laravel-extra-intellisense",
-				// "ryannaddy.laravel-artisan",
-				// "onecentlin.laravel5-snippets",
-				// "onecentlin.laravel-blade"
+				"mikestead.dotenv",
+				"amiralizadeh9480.laravel-extra-intellisense",
+				"ryannaddy.laravel-artisan",
+				"onecentlin.laravel5-snippets",
+				"onecentlin.laravel-blade",
+				// mkulas
+				"ms-ceintl.vscode-language-pack-pl",
+				"bmewburn.vscode-intelephense-client",
+				"junstyle.php-cs-fixer",
+				"faelv.composer-companion",
+				"xdebug.php-debug",
+				"MehediDracula.php-constructor",
+				"MehediDracula.php-namespace-resolver",
+				"DEVSENSE.composer-php-vscode",
+				"MrChetan.phpstorm-parameter-hints-in-vscode"
 			],
-			"settings": {}
+			"settings": {
+				// mkulas
+				"editor.fontSize": 14
+			}
 		}
 	},
 	"remoteUser": "sail",
